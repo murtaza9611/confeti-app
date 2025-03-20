@@ -29,11 +29,11 @@ def countdown_timer(target_time):
         st.rerun()
 
 # Set the target date and time
-target_datetime = datetime(2025, 3, 20, 21, 0, 0) # Different TimeZone
+target_datetime = datetime(2025, 3, 20, 21, 0, 0) # Different TimeZone Deployed One
 # target_datetime = datetime(2025, 3, 21, 2, 0, 0) # Our TimeZone
 
-# Streamlit UI setup
-st.set_page_config(page_title="JASHAN E AMAD", page_icon="🎉", layout="wide")
+# Streamlit UI setup (Set to centered layout)
+st.set_page_config(page_title="JASHAN E AMAD", page_icon="🎉", layout="centered")
 
 # Apply background animations at a slower speed
 time.sleep(2)
@@ -47,15 +47,12 @@ st.markdown(
     <style>
         .centered-text {
             text-align: center;
-            font-size: 50px;
+            font-size: 40px;
             font-weight: bold;
             background: linear-gradient(45deg, #ff4b4b, #ffcc00);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            position: absolute;
-            margin-top: 2%; /* Adjusted to move slightly up */
-            left: 50%;
-            transform: translate(-50%, -50%);
+            margin-top: 20px;
         }
         .subtext {
             text-align: center;
@@ -64,10 +61,7 @@ st.markdown(
             background: linear-gradient(45deg, #00ffcc, #ff6600);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            position: absolute;
-            margin-top: 12%; /* Moved slightly below first text */
-            left: 50%;
-            transform: translate(-50%, -50%);
+            margin-top: 40px;
         }
         .timer-box {
             text-align: center;
@@ -78,10 +72,14 @@ st.markdown(
             display: inline-block;
             border-radius: 10px;
             background-color: white;
-            position: absolute;
-            margin-top: 25%; /* Adjusted to move to green box position */
-            left: 50%;
-            transform: translate(-50%, -50%);
+            margin-top: 150px;
+            margin-left: 200px;
+        }
+        .stApp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
     </style>
     """,
