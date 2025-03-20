@@ -52,7 +52,7 @@ st.markdown(
             background: linear-gradient(45deg, #ff4b4b, #ffcc00);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-top: 20px;
+            margin-top: 1%;
         }
         .subtext {
             text-align: center;
