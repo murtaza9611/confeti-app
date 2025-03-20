@@ -52,7 +52,7 @@ st.markdown(
             background: linear-gradient(45deg, #ff4b4b, #ffcc00);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-top: 1%;
+            margin-top: 0.5%;
         }
         .subtext {
             text-align: center;
@@ -61,7 +61,7 @@ st.markdown(
             background: linear-gradient(45deg, #00ffcc, #ff6600);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-top: 40px;
+            margin-top: 10%;
         }
         .timer-box {
             text-align: center;
