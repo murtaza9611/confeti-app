@@ -7,7 +7,7 @@ def countdown_timer(target_time):
         now = datetime.now()
         time_left = target_time - now
         if time_left.total_seconds() <= 0:
-            st.subheader("🎉 Time's Up! 🎉")
+            st.subheader("🎉 Time's Up! INTEZAR KI GHARIYAN KHATAM 🎉")
             break
         
         days, remainder = divmod(time_left.total_seconds(), 86400)
@@ -29,10 +29,10 @@ def countdown_timer(target_time):
         st.rerun()
 
 # Set the target date and time
-target_datetime = datetime(2025, 3, 21, 1, 40, 0)
+target_datetime = datetime(2025, 3, 21, 2, 0, 0)
 
 # Streamlit UI setup
-st.set_page_config(page_title="Countdown Party", page_icon="🎉🎈", layout="wide")
+st.set_page_config(page_title="JASHAN E AMAD", page_icon="🎉", layout="wide")
 
 # Apply background animations at a slower speed
 time.sleep(2)
@@ -89,7 +89,7 @@ st.markdown(
 
 # Display main content
 st.markdown("<div class='centered-text'>🎊 JASHAN E AMAD E AFIFA & ITS CHINGERPOT 🎊</div>", unsafe_allow_html=True)
-st.markdown("<div class='subtext'>🎈 Get Ready! Bus Thodi Der Aur! 🎈</div>", unsafe_allow_html=True)
+st.markdown("<div class='subtext'>🎈 Get Ready! Bus Thodi Der Aur! Hosla Rakho 🎈</div>", unsafe_allow_html=True)
 
 # Run countdown timer
 countdown_timer(target_datetime)
