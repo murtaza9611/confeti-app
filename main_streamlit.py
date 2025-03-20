@@ -61,7 +61,7 @@ st.markdown(
             background: linear-gradient(45deg, #00ffcc, #ff6600);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-top: 10%;
+            margin-top: 7%;
         }
         .timer-box {
             text-align: center;
@@ -72,7 +72,7 @@ st.markdown(
             display: inline-block;
             border-radius: 10px;
             background-color: white;
-            margin-top: 25%;
+            margin-top: 17%;
             margin-left: 6%;
         }
         .stApp {
