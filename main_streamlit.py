@@ -73,7 +73,7 @@ st.markdown(
             border-radius: 10px;
             background-color: white;
             margin-top: 25%;
-            margin-left: 30%;
+            margin-left: 3%;
         }
         .stApp {
             display: flex;
