@@ -72,8 +72,8 @@ st.markdown(
             display: inline-block;
             border-radius: 10px;
             background-color: white;
-            margin-top: 150px;
-            margin-left: 200px;
+            margin-top: 25%;
+            margin-left: 30%;
         }
         .stApp {
             display: flex;
