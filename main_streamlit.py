@@ -29,7 +29,8 @@ def countdown_timer(target_time):
         st.rerun()
 
 # Set the target date and time
-target_datetime = datetime(2025, 3, 20, 21, 0, 0)
+target_datetime = datetime(2025, 3, 20, 21, 0, 0) # Different TimeZone
+# target_datetime = datetime(2025, 3, 21, 2, 0, 0) # Our TimeZone
 
 # Streamlit UI setup
 st.set_page_config(page_title="JASHAN E AMAD", page_icon="🎉", layout="wide")
