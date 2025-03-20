@@ -72,7 +72,7 @@ st.markdown(
             display: inline-block;
             border-radius: 10px;
             background-color: white;
-            margin-top: 17%;
+            margin-top: 15%;
             margin-left: 6%;
         }
         .stApp {
